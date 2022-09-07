@@ -1,0 +1,111 @@
+{
+  "id": "b06d0d73-bb3c-4547-9e68-245c5f008f28",
+  "version": "2.0",
+  "name": "youtube test",
+  "url": "https://www.youtube.com/",
+  "tests": [{
+    "id": "5d818411-5d79-415f-8b35-efe1b1df0c79",
+    "name": "Untitled",
+    "commands": [{
+      "id": "02b54fd1-a285-47f4-b83d-ab3e966beeb7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ea366ee-f5bc-47d4-b067-7b9eb3c8e9c6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44ece5bf-08e6-474a-bd75-cdbc8968ebaf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(3) > #content > .style-scope > #dismissible > .style-scope > #thumbnail #img",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(3) > #content > .style-scope > #dismissible > .style-scope > #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/GP02v_OoV1c/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDY1tZIkRORnhhtyndwSvawmf7RXg')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[13]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3de909c7-1da1-4340-bb87-00f325c9c786",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(3) > #content > .style-scope > #dismissible > .style-scope > #thumbnail #img",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(3) > #content > .style-scope > #dismissible > .style-scope > #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/GP02v_OoV1c/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDY1tZIkRORnhhtyndwSvawmf7RXg')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[13]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a508bdb-0eaf-422b-b3e7-5d76f1a23ffa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytd-feed-filter-chip-bar-renderer:nth-child(2) > #text",
+      "targets": [
+        ["css=.ytd-feed-filter-chip-bar-renderer:nth-child(2) > #text", "css:finder"],
+        ["xpath=(//yt-formatted-string[@id='text'])[3]", "xpath:attributes"],
+        ["xpath=//iron-selector[@id='chips']/yt-chip-cloud-chip-renderer[2]/yt-formatted-string", "xpath:idRelative"],
+        ["xpath=//yt-chip-cloud-chip-renderer[2]/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Mixes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4de9a4f-b65f-4120-9242-8b4dac04d34a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/8SbUC-UaAxE/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC67LpUMOAvj0N73f7XOcbKaV2t7A')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[12]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-item-renderer[2]/div/ytd-rich-grid-media/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eadd530-7311-4ae5-914c-db485a29a9d4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/8SbUC-UaAxE/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC67LpUMOAvj0N73f7XOcbKaV2t7A')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[12]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-item-renderer[2]/div/ytd-rich-grid-media/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62a08a75-8826-4c8a-8860-46130fd84afe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#hover-overlays > .style-scope",
+      "targets": [
+        ["css=#hover-overlays > .style-scope", "css:finder"],
+        ["xpath=//div[@id='hover-overlays']/ytd-thumbnail-overlay-hover-text-renderer", "xpath:idRelative"],
+        ["xpath=//ytd-thumbnail-overlay-hover-text-renderer", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eaebbd77-0cf3-457d-85a9-f93d94626ccb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5d818411-5d79-415f-8b35-efe1b1df0c79"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}
